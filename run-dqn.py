@@ -102,7 +102,7 @@ state = stack_frames(None, env.reset(), True)
 
 start_epoch = 0
 scores = []
-scores_window = deque(maxlen=20)
+scores_window = deque(maxlen=100)
 num_episodes = os.environ.get("NUM_EPISODES")
 
 
